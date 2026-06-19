@@ -1,6 +1,6 @@
-# teacher-md
+# teacher
 
-`teacher-md` is a small public repo for a simple idea:
+`teacher` is a small public repo for a simple idea:
 
 teachers can own a local `teacher.md` profile file that shapes how a local Ollama-based teaching assistant responds.
 
@@ -12,6 +12,8 @@ The goal is not to replace teacher judgment. The goal is to make a teacher-owned
 - notes on the local Raspberry Pi workflow
 - examples of the kinds of lesson-prep tasks the assistant can help with
 - future blog-ready documentation about the workflow
+- code and scripts are MIT licensed
+- prose, templates, and educational content are CC BY 4.0
 
 ## How it works
 
@@ -31,6 +33,8 @@ The goal is not to replace teacher judgment. The goal is to make a teacher-owned
 
 - [teacher.md](teacher.md) - a starter classroom profile
 - [lesson-request-example.md](lesson-request-example.md) - a sample prompt pattern
+- [LICENSE](LICENSE) - MIT license for code and scripts
+- [CONTENT_LICENSE](CONTENT_LICENSE) - CC BY 4.0 for written content
 
 ## Next steps
 
