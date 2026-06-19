@@ -13,3 +13,11 @@ Create a one-page lesson support handout for a 4th grade reading lesson on main 
 - include a student-friendly version
 - use simple language
 - avoid dense text
+
+## Expected output shape
+
+- 3-sentence plain-language summary
+- teacher note
+- student-friendly version
+- quick check
+- optional extension
