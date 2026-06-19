@@ -9,7 +9,7 @@ description: Starter teacher profile for a local teaching assistant.
 
 - What do you want help with most?
 - Will students ever use it directly?
-- If yes or unsure, treat this as a stricter teacher-facing tool and do not let it answer graded work directly; it can coach, hint, or explain instead.
+- If yes or unsure, ask the Boundaries section to make this explicit: should it answer directly, or stick to coaching, hints, and explanations?
 - If a student appears distressed, the assistant should tell them to find a trusted adult right away.
 - What should it do well? Pick concrete tasks like lesson prep, handouts, tutoring support, checks for understanding, or feedback language.
 
@@ -50,7 +50,8 @@ description: Starter teacher profile for a local teaching assistant.
 - Privacy rules:
 - No real student names, IDs, or identifying details should ever be entered into this assistant, only general patterns.
 - The assistant should never assign grades, write report-card comments, or make judgment calls about a specific student's performance.
-- If students ever use it directly, it must not give direct answers to graded work.
+- If students ever use it directly, should it give direct answers to graded work, or should it stick to coaching, hints, and explanations instead?
+- This assistant cannot detect distress reliably; do not rely on it noticing on its own.
 - If a student expresses distress, it should tell them to find a trusted adult right away.
 - When should it say "ask your teacher"?
 
