@@ -1,64 +1,54 @@
 # teacher
 
-`teacher` is a small public repo for a simple idea:
+`teacher` is a small public repo for one simple idea: a teacher should own the file that shapes how a local AI assistant helps them.
 
-teachers can own a local `teacher.md` profile file that shapes how a local Ollama-based teaching assistant responds.
+The heart of the workflow is a plain text profile called `teacher.md`. It captures classroom context, preferences, supports, and boundaries so the assistant can give help that feels consistent and useful instead of generic.
 
-The goal is not to replace teacher judgment. The goal is to make a teacher-owned AI assistant easier to set up, safer to share, and more useful for lesson prep.
+## Start here
 
-## What this is right now (v1 scope)
+1. Open [`BUILD_PROFILE.md`](BUILD_PROFILE.md) if you want a guided interview that helps you build a profile from scratch.
+2. Open [`teacher.md`](teacher.md) if you want a starter profile you can fill in directly.
+3. Read [`PRIVACY.md`](PRIVACY.md) before adding any real classroom details.
+4. Keep the file local and update it as your classroom changes.
 
-This release covers the **profile-building side only**: the `teacher.md` file itself, and `BUILD_PROFILE.md`, a guided interview prompt that helps a teacher build one using any AI chat tool they already have. The Raspberry Pi setup guide and the local Ollama wrapper that actually runs the assistant are coming in a later release - they're not missing by accident, just not built yet. See **Next steps** below.
+## What this repo includes now
 
-## What goes in this repo
-
-- `BUILD_PROFILE.md` - a paste-in interview prompt that helps an AI chat tool build `teacher.md`
-- a sample `teacher.md` profile
-- notes on the local Raspberry Pi workflow
-- examples of the kinds of lesson-prep tasks the assistant can help with
-- an example response shape that shows the full profile -> request -> output loop
-- `PRIVACY.md` - what running this locally actually protects, and what it doesn't
-- `CONTRIBUTING.md` - how to propose example profiles or improvements
-- future blog-ready documentation about the workflow
-- code and scripts are MIT licensed
-- prose, templates, and educational content are CC BY 4.0
+- [`BUILD_PROFILE.md`](BUILD_PROFILE.md) - a copy/paste interview prompt for building `teacher.md`
+- [`teacher.md`](teacher.md) - a starter classroom profile
+- [`lesson-request-example.md`](lesson-request-example.md) - a simple request pattern to test against
+- [`lesson-response-example.md`](lesson-response-example.md) - the kind of short, usable output this project aims for
+- [`PRIVACY.md`](PRIVACY.md) - what local use protects, and what it does not
+- [`CONTRIBUTING.md`](CONTRIBUTING.md) - how to propose improvements
+- [`LICENSE`](LICENSE) - MIT license for code and scripts
+- [`CONTENT_LICENSE`](CONTENT_LICENSE) - CC BY 4.0 for prose, templates, and educational content
 
 ## How it works
 
-1. A teacher either fills out `teacher.md` directly or pastes `BUILD_PROFILE.md` into an AI chat tool to interview them section by section
-2. A small local wrapper reads that profile
-3. The wrapper sends the profile and the current request to Ollama
-4. The model answers in the teacher's preferred style and structure
+1. A teacher fills out `teacher.md` directly, or uses `BUILD_PROFILE.md` in any chat tool to build one section by section.
+2. The profile lives on hardware the teacher controls.
+3. A local assistant reads the profile and a lesson request.
+4. The assistant answers in the teacher's preferred style, length, and format.
 
-## Why this matters
+## What this repo is not
 
-- the teacher keeps control of the profile
-- the assistant stays local and openweight
-- classroom preferences live in a file instead of being hidden in a black box
-- the same pattern can work across grade levels and subjects
+- It is not a full product yet.
+- It does not include the Raspberry Pi launcher or the Ollama wrapper that runs the assistant.
+- It does not replace teacher judgment.
+- It does not make classroom privacy automatic.
 
-## Privacy and safety
+## Privacy in plain language
 
-This project is built around one hard rule: no real student names, IDs, or other identifying details should ever be entered into `teacher.md` or into a request sent to the assistant. Local doesn't mean automatically safe - see `PRIVACY.md` for what running this locally actually protects, what it doesn't, and why boundary language in `teacher.md` and `BUILD_PROFILE.md` is written the way it is.
+Local use keeps the profile off a cloud AI account, but local does not mean magically safe.
+Do not put real student names, ID numbers, or other identifying details into `teacher.md` or any request you send to the assistant.
+If you want the fuller version, read [`PRIVACY.md`](PRIVACY.md).
 
-## Starter files
+## Want to contribute?
 
-- [BUILD_PROFILE.md](BUILD_PROFILE.md) - interview-style builder prompt
-- [teacher.md](teacher.md) - a starter classroom profile
-- [lesson-request-example.md](lesson-request-example.md) - a sample prompt pattern
-- [lesson-response-example.md](lesson-response-example.md) - a sample output shape
-- [PRIVACY.md](PRIVACY.md) - data handling and privacy explainer
-- [CONTRIBUTING.md](CONTRIBUTING.md) - how to contribute
-- [LICENSE](LICENSE) - MIT license for code and scripts
-- [CONTENT_LICENSE](CONTENT_LICENSE) - CC BY 4.0 for written content
+Contributions are welcome, especially:
 
-## Contributing
+- clearer wording in `BUILD_PROFILE.md`
+- stronger example profiles
+- better request/response examples
+- documentation fixes
 
-This repo is open to contributions - example profiles for different grade bands and subjects, improvements to the interview logic in `BUILD_PROFILE.md`, and documentation fixes are all welcome. See `CONTRIBUTING.md` for what's in scope and how to submit changes.
-
-## Next steps
-
-- add a Raspberry Pi setup guide
-- build the local Ollama wrapper script
-- tailor the sample profile for different grade bands
-- add a blog post draft about the `teacher.md` idea
+If you are proposing a behavior change, open an issue first so we can talk through the tradeoffs.

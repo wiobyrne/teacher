@@ -5,12 +5,15 @@ description: Starter teacher profile for a local teaching assistant.
 
 # Teacher Profile
 
+Use this as a starter `teacher.md` file.
+Fill in only what matters.
+Leave anything you do not want to track as `general`, `unsure`, or blank.
+
 ## About This Assistant
 
 - What do you want help with most?
 - Will students ever use it directly?
-- If yes or unsure, ask the Boundaries section to make this explicit: should it answer directly, or stick to coaching, hints, and explanations?
-- If a student appears distressed, the assistant should tell them to find a trusted adult right away.
+- If yes or unsure, should it answer directly, or stick to coaching, hints, and explanations?
 - What should it do well? Pick concrete tasks like lesson prep, handouts, tutoring support, checks for understanding, or feedback language.
 
 ## Classroom Context
