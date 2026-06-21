@@ -18,7 +18,7 @@ You do not need to install anything. You just need a free account with a chat to
 4. Answer the questions — it takes about 15 minutes
 5. At the end, the chat tool gives you a finished `teacher.md` — copy that and save it somewhere (Notes, Google Docs, a text file)
 
-If you would rather skip the interview and start immediately, open [teacher.md](teacher.md) — it is a filled-in starter profile you can use right away and customize as you go.
+If you would rather skip the interview and fill things in yourself, open [teacher.md](teacher.md) and edit it directly.
 
 ### Step 2 — Use it
 
@@ -38,7 +38,7 @@ Your profile is just a text file. Edit it directly, or run the interview again a
 ## What's in this repo
 
 - [BUILD_PROFILE.md](BUILD_PROFILE.md) — the interview prompt that builds your profile
-- [teacher.md](teacher.md) — a filled-in starter profile, ready to use and customize
+- [teacher.md](teacher.md) — the profile template, if you prefer to fill it in yourself
 - [lesson-request-example.md](lesson-request-example.md) — an example request to try once you have a profile
 - [lesson-response-example.md](lesson-response-example.md) — the kind of output to expect
 - [PRIVACY.md](PRIVACY.md) — what is safe to put in your profile and what is not
