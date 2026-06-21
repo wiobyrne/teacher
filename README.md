@@ -6,7 +6,7 @@ A short classroom profile that makes AI chat tools more useful for teachers.
 
 `teacher.md` is a file that describes your classroom — your grade level, teaching style, what you want help with, and what you don't. Paste it into any AI chat tool before your request and you get help that fits your class instead of a generic answer.
 
-You do not need to install anything. You just need a free account with a chat tool like [ChatGPT](https://chatgpt.com) or [Gemini](https://gemini.google.com).
+You do not need to install anything. You just need a free account with a chat tool like [ChatGPT](https://chatgpt.com), [Claude](https://claude.ai), or [Gemini](https://gemini.google.com).
 
 ## How to get started
 
