@@ -1,54 +1,50 @@
 # teacher
 
-`teacher` is a small public repo for one simple idea: a teacher should own the file that shapes how a local AI assistant helps them.
+A short classroom profile that makes AI chat tools more useful for teachers.
 
-The heart of the workflow is a plain text profile called `teacher.md`. It captures classroom context, preferences, supports, and boundaries so the assistant can give help that feels consistent and useful instead of generic.
+## What this is
 
-## Start here
+`teacher.md` is a file that describes your classroom — your grade level, teaching style, what you want help with, and what you don't. Paste it into any AI chat tool before your request and you get help that fits your class instead of a generic answer.
 
-1. Open [`BUILD_PROFILE.md`](BUILD_PROFILE.md) if you want a guided interview that helps you build a profile from scratch.
-2. Open [`teacher.md`](teacher.md) if you want a starter profile you can fill in directly.
-3. Read [`PRIVACY.md`](PRIVACY.md) before adding any real classroom details.
-4. Keep the file local and update it as your classroom changes.
+You do not need to install anything. You just need a free account with a chat tool like [ChatGPT](https://chatgpt.com), [Claude](https://claude.ai), or [Gemini](https://gemini.google.com).
 
-## What this repo includes now
+## How to get started
 
-- [`BUILD_PROFILE.md`](BUILD_PROFILE.md) - a copy/paste interview prompt for building `teacher.md`
-- [`teacher.md`](teacher.md) - a starter classroom profile
-- [`lesson-request-example.md`](lesson-request-example.md) - a simple request pattern to test against
-- [`lesson-response-example.md`](lesson-response-example.md) - the kind of short, usable output this project aims for
-- [`PRIVACY.md`](PRIVACY.md) - what local use protects, and what it does not
-- [`CONTRIBUTING.md`](CONTRIBUTING.md) - how to propose improvements
-- [`LICENSE`](LICENSE) - MIT license for code and scripts
-- [`CONTENT_LICENSE`](CONTENT_LICENSE) - CC BY 4.0 for prose, templates, and educational content
+### Step 1 — Build your profile
 
-## How it works
+1. Open [BUILD_PROFILE.md](BUILD_PROFILE.md) in this repo
+2. Click the **Raw** button in the top right
+3. Select all, copy, and paste into your chat tool
+4. Answer the questions — it takes about 15 minutes
+5. At the end, the chat tool gives you a finished `teacher.md` — copy that and save it somewhere (Notes, Google Docs, a text file)
 
-1. A teacher fills out `teacher.md` directly, or uses `BUILD_PROFILE.md` in any chat tool to build one section by section.
-2. The profile lives on hardware the teacher controls.
-3. A local assistant reads the profile and a lesson request.
-4. The assistant answers in the teacher's preferred style, length, and format.
+If you would rather skip the interview and fill things in yourself, open [teacher.md](teacher.md) and edit it directly.
 
-## What this repo is not
+### Step 2 — Use it
 
-- It is not a full product yet.
-- It does not include the Raspberry Pi launcher or the Ollama wrapper that runs the assistant.
-- It does not replace teacher judgment.
-- It does not make classroom privacy automatic.
+Any time you want help with a lesson:
 
-## Privacy in plain language
+1. Open your chat tool
+2. Paste your `teacher.md` contents into the message box
+3. Add your request below it, like: *"Create a one-page handout for a 4th grade reading lesson on main idea. Keep it short."*
+4. Send it
 
-Local use keeps the profile off a cloud AI account, but local does not mean magically safe.
-Do not put real student names, ID numbers, or other identifying details into `teacher.md` or any request you send to the assistant.
-If you want the fuller version, read [`PRIVACY.md`](PRIVACY.md).
+The chat tool will use your profile to give you something that actually fits your classroom.
 
-## Want to contribute?
+### Step 3 — Update it when things change
 
-Contributions are welcome, especially:
+Your profile is just a text file. Edit it directly, or run the interview again anytime your class changes.
 
-- clearer wording in `BUILD_PROFILE.md`
-- stronger example profiles
-- better request/response examples
-- documentation fixes
+## What's in this repo
 
-If you are proposing a behavior change, open an issue first so we can talk through the tradeoffs.
+- [BUILD_PROFILE.md](BUILD_PROFILE.md) — the interview prompt that builds your profile
+- [teacher.md](teacher.md) — the profile template, if you prefer to fill it in yourself
+- [lesson-request-example.md](lesson-request-example.md) — an example request to try once you have a profile
+- [lesson-response-example.md](lesson-response-example.md) — the kind of output to expect
+- [PRIVACY.md](PRIVACY.md) — what is safe to put in your profile and what is not
+
+## One privacy rule
+
+Do not put real student names or ID numbers in your profile or any request. Describe patterns and groups instead — for example, "several students reading below grade level" rather than individual names.
+
+For more detail, read [PRIVACY.md](PRIVACY.md).
