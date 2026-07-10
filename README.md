@@ -15,7 +15,7 @@ You do not need to install anything. You just need a free account with a chat to
 1. Open [BUILD_PROFILE.md](BUILD_PROFILE.md) in this repo
 2. Click the **Raw** button in the top right
 3. Select all, copy, and paste into your chat tool
-4. Answer the questions — it takes about 15 minutes
+4. Answer the questions — it takes about 15-20 minutes
 5. At the end, the chat tool gives you a finished `teacher.md` — copy that and save it somewhere (Notes, Google Docs, a text file)
 
 If you would rather skip the interview and fill things in yourself, open [teacher.md](teacher.md) and edit it directly.

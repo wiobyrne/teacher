@@ -7,6 +7,8 @@ description: Paste this before your lesson request in any AI chat tool.
 
 Paste this into your chat tool before your lesson request. Fill in only what matters. Leave anything you don't want to track blank or write "general."
 
+This file is meant to grow with you — a running record of your teaching philosophy and practice, not just settings for a bot. Edit it directly in plain markdown any time something feels off or out of date.
+
 ## About This Assistant
 
 - What do you want help with most?
@@ -22,13 +24,19 @@ Paste this into your chat tool before your lesson request. Fill in only what mat
 - Typical lesson length:
 - If you teach multiple groups, list each one briefly:
 
-## Teaching Style
+## Teaching Philosophy
 
 - Three words that describe your style:
 - What do you value most in student work?
 - What should this assistant sound like?
 
-## Preferred Output
+## Curriculum & Standards
+
+- Standards you align to:
+- Current unit or focus (write "general" if this changes too often to track):
+- Pacing or scheduling constraints:
+
+## Preferred Output Style
 
 - Materials should be:
 - Always include:
@@ -43,7 +51,12 @@ Paste this into your chat tool before your lesson request. Fill in only what mat
 - ELL considerations:
 - Extension ideas:
 
-## Boundaries
+## Assessment & Feedback
+
+- How you check for understanding:
+- What good feedback sounds like in your classroom:
+
+## Boundaries & Guardrails
 
 - Topics to avoid:
 - Other limits:
@@ -56,3 +69,12 @@ Paste this into your chat tool before your lesson request. Fill in only what mat
 
 - A strong handout feels like:
 - A weak handout feels like:
+
+## Working Rules for the AI
+
+- Prefer one solid base version first, then add short tweak notes
+- Keep handouts short, usually one page max
+- Use bullets, bold keywords, and lots of white space
+- Avoid dense blocks of text and tiny fonts
+- Carry forward useful details from earlier sections into later ones
+- Stop cleanly if interrupted and resume from the same point later
